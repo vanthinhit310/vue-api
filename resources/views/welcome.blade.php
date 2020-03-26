@@ -5,11 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Vue API</title>
-
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
     <body>
-        <div id="app"><router-view></router-view></div>
-
+        <div id="app">
+            <app-layout></app-layout>
+        </div>
         <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
